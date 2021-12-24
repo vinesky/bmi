@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+
+  /* System Fonts as used by GitHub */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+#__next {
+  height: 100%;
+}
+
+button,
+input {
+  /* System Fonts as used by GitHub */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}

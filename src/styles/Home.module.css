@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 10px;
+  height: 100%;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  padding: 30px 0px;
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.description {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.example {
+  color: darkgray;
+  font-size: 14px;
+}
+
+.inputGroup {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.input {
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.buttonSubmit {
+  background-color: dodgerblue;
+  border-radius: 3px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.bmi {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.bmiGroup {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.groups {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.group {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.groupTitle {
+  font-size: 15px;
+}
+
+.groupSubtitle {
+  color: darkgray;
+  font-size: 15px;
+}
+
+.footer {
+  display: flex;
+  padding: 20px 0px;
+  border-top: 1px solid lightgray;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .form {
+    width: 100%;
+  }
+
+  .groups {
+    flex-direction: column;
+  }
+
+  .group {
+    margin-bottom: 15px;
+  }
+}
